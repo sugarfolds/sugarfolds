@@ -1,4 +1,4 @@
-# Shenfeng Qi
+# qishenfeng-sys
 
 I work at the intersection of finance, law, data, and writing.
 
@@ -31,4 +31,3 @@ A local-first, source-first data pipeline for messy personal finance exports.
 ## Tech And Tools
 
 Python · CSV/Excel workflows · data cleaning · Git/GitHub · Markdown knowledge bases · financial statement reading · research writing
-

@@ -6,7 +6,7 @@ My current projects focus on turning messy real-world information into structure
 
 ## Featured Project
 
-### [Personal Ledger Pipeline](https://github.com/qishenfeng-sys/personal-ledger-pipeline)
+### [Personal Ledger Pipeline](https://github.com/sugarfolds/personal-ledger-pipeline)
 
 A local-first, source-first data pipeline for messy personal finance exports.
 

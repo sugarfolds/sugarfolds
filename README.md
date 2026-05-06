@@ -1,6 +1,6 @@
-# qishenfeng-sys
+# sugar croissant
 
-I work at the intersection of finance, law, data, and writing.
+Finance, law, data, and writing, folded into source-first systems.
 
 My current projects focus on turning messy real-world information into structured, reviewable systems: investment research notes, personal knowledge bases, and local-first data pipelines.
 

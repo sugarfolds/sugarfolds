@@ -2,9 +2,9 @@
 
 Finance, law, data, and writing, folded into source-first systems.
 
-My current projects focus on turning messy real-world information into structured, reviewable systems: investment research notes, personal knowledge bases, and local-first data pipelines.
+I build local-first workflows that turn messy real-world information into structured, reviewable systems: personal finance exports, lecture recordings, investment research notes, and other materials where source boundaries matter.
 
-## Featured Project
+## Featured Projects
 
 ### [Personal Ledger Pipeline](https://github.com/sugarfolds/personal-ledger-pipeline)
 
@@ -12,8 +12,27 @@ A local-first, source-first data pipeline for messy personal finance exports.
 
 - Normalizes multi-source payment exports into a unified ledger.
 - Separates consumption from monthly repayments, internal transfers, matched refunds, and duplicate bank charges.
-- Preserves source evidence and routes ambiguous rows into a manual-review queue.
-- Uses synthetic sample data only, with privacy boundaries documented in the repository.
+- Preserves source evidence through source file and raw row references.
+- Routes ambiguous rows into a manual-review queue instead of silently guessing.
+- Includes synthetic sample data, a local dashboard, and a portfolio-safe annual report demo.
+
+### [Lecture Notes Pipeline](https://github.com/sugarfolds/lecture-notes-pipeline)
+
+A workflow for turning recorded course sessions into PPT-aligned study notes.
+
+- Extracts audio, runs transcription, and aligns notes to slide/content boundaries.
+- Uses slide indexes and fuzzy lookup to resolve noisy transcript fragments when there is evidence.
+- Produces compact review notes instead of classroom narration.
+- Includes a Codex skill for stable note-writing conventions.
+
+### [Equity Research Conclusion Skill](https://github.com/sugarfolds/equity-research-conclusion-skill)
+
+A Codex skill for drafting and reviewing Chinese equity research conclusion pages.
+
+- Requires qualitative evidence before formal valuation.
+- Separates business model, customer buying logic, industry beta, company alpha, financial quality, and valuation assumptions.
+- Supports lightweight Markdown DCF, scenario valuation, and three-price discipline.
+- Defaults to public data and does not read private research notes unless explicitly authorized.
 
 ## What I Am Building Toward
 
